@@ -1,0 +1,465 @@
+:root {
+	--primary-color: #446084;
+}
+
+.container-width,
+.full-width .ubermenu-nav,
+.container,
+.row {
+	max-width: 1330px;
+}
+
+.row.row-collapse {
+	max-width: 1240px
+}
+
+.row.row-small {
+	max-width: 1262.5px
+}
+
+.row.row-large {
+	max-width: 1300px
+}
+
+.header-main {
+	height: 118px
+}
+
+#logo img {
+	max-height: 118px
+}
+
+#logo {
+	width: 232px;
+}
+
+.stuck #logo img {
+	padding: 4px 0;
+}
+
+.header-bottom {
+	min-height: 10px
+}
+
+.header-top {
+	min-height: 53px
+}
+
+.transparent .header-main {
+	height: 30px
+}
+
+.transparent #logo img {
+	max-height: 30px
+}
+
+.has-transparent+.page-title:first-of-type,
+.has-transparent+#main>.page-title,
+.has-transparent+#main>div>.page-title,
+.has-transparent+#main .page-header-wrapper:first-of-type .page-title {
+	padding-top: 30px;
+}
+
+.header.show-on-scroll,
+.stuck .header-main {
+	height: 100px !important
+}
+
+.stuck #logo img {
+	max-height: 100px !important
+}
+
+.header-bg-color {
+	background-color: rgba(255, 255, 255, 0.9)
+}
+
+.header-bottom {
+	background-color: #f1f1f1
+}
+
+.top-bar-nav>li>a {
+	line-height: 18px
+}
+
+.header-wrapper:not(.stuck) .header-main .header-nav {
+	margin-top: -23px
+}
+
+.stuck .header-main .nav>li>a {
+	line-height: 29px
+}
+
+.header-bottom-nav>li>a {
+	line-height: 16px
+}
+
+@media (max-width: 549px) {
+	.header-main {
+		height: 70px
+	}
+
+	#logo img {
+		max-height: 70px
+	}
+}
+
+.header-top {
+	background-color: #dd3333 !important;
+}
+
+body {
+	font-family: "Lato", sans-serif
+}
+
+body {
+	font-weight: 400
+}
+
+.nav>li>a {
+	font-family: "Lato", sans-serif;
+}
+
+.mobile-sidebar-levels-2 .nav>li>ul>li>a {
+	font-family: "Lato", sans-serif;
+}
+
+.nav>li>a {
+	font-weight: 700;
+}
+
+.mobile-sidebar-levels-2 .nav>li>ul>li>a {
+	font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading-font,
+.off-canvas-center .nav-sidebar.nav-vertical>li>a {
+	font-family: "Lato", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading-font,
+.banner h1,
+.banner h2 {
+	font-weight: 700;
+}
+
+.alt-font {
+	font-family: "Abel", sans-serif;
+}
+
+.alt-font {
+	font-weight: 0 !important;
+}
+
+.header:not(.transparent) .top-bar-nav>li>a {
+	color: #ffffff;
+}
+
+.header:not(.transparent) .top-bar-nav.nav>li>a:hover,
+.header:not(.transparent) .top-bar-nav.nav>li.active>a,
+.header:not(.transparent) .top-bar-nav.nav>li.current>a,
+.header:not(.transparent) .top-bar-nav.nav>li>a.active,
+.header:not(.transparent) .top-bar-nav.nav>li>a.current {
+	color: #bcbcbc;
+}
+
+.top-bar-nav.nav-line-bottom>li>a:before,
+.top-bar-nav.nav-line-grow>li>a:before,
+.top-bar-nav.nav-line>li>a:before,
+.top-bar-nav.nav-box>li>a:hover,
+.top-bar-nav.nav-box>li.active>a,
+.top-bar-nav.nav-pills>li>a:hover,
+.top-bar-nav.nav-pills>li.active>a {
+	color: #FFF !important;
+	background-color: #bcbcbc;
+}
+
+.header:not(.transparent) .header-nav-main.nav>li>a:hover,
+.header:not(.transparent) .header-nav-main.nav>li.active>a,
+.header:not(.transparent) .header-nav-main.nav>li.current>a,
+.header:not(.transparent) .header-nav-main.nav>li>a.active,
+.header:not(.transparent) .header-nav-main.nav>li>a.current {
+	color: #ec1e27;
+}
+
+.header-nav-main.nav-line-bottom>li>a:before,
+.header-nav-main.nav-line-grow>li>a:before,
+.header-nav-main.nav-line>li>a:before,
+.header-nav-main.nav-box>li>a:hover,
+.header-nav-main.nav-box>li.active>a,
+.header-nav-main.nav-pills>li>a:hover,
+.header-nav-main.nav-pills>li.active>a {
+	color: #FFF !important;
+	background-color: #ec1e27;
+}
+
+@media screen and (min-width: 550px) {
+	.products .box-vertical .box-image {
+		min-width: 300px !important;
+		width: 300px !important;
+	}
+}
+
+.header-main .social-icons,
+.header-main .cart-icon strong,
+.header-main .menu-title,
+.header-main .header-button>.button.is-outline,
+.header-main .nav>li>a>i:not(.icon-angle-down) {
+	color: #595959 !important;
+}
+
+.header-main .header-button>.button.is-outline,
+.header-main .cart-icon strong:after,
+.header-main .cart-icon strong {
+	border-color: #595959 !important;
+}
+
+.header-main .header-button>.button:not(.is-outline) {
+	background-color: #595959 !important;
+}
+
+.header-main .current-dropdown .cart-icon strong,
+.header-main .header-button>.button:hover,
+.header-main .header-button>.button:hover i,
+.header-main .header-button>.button:hover span {
+	color: #FFF !important;
+}
+
+.header-main .menu-title:hover,
+.header-main .social-icons a:hover,
+.header-main .header-button>.button.is-outline:hover,
+.header-main .nav>li>a:hover>i:not(.icon-angle-down) {
+	color: #595959 !important;
+}
+
+.header-main .current-dropdown .cart-icon strong,
+.header-main .header-button>.button:hover {
+	background-color: #595959 !important;
+}
+
+.header-main .current-dropdown .cart-icon strong:after,
+.header-main .current-dropdown .cart-icon strong,
+.header-main .header-button>.button:hover {
+	border-color: #595959 !important;
+}
+
+/* Custom CSS */
+@media screen and (min-width: 1080px) and (max-width: 1920px) {
+	background-color: red;
+}
+
+.absolute-footer {
+	color: rgba(0, 0, 0, 0.5);
+	padding: 10px 0 15px;
+	font-size: .9em;
+	display: none;
+}
+
+.nav-dark .social-icons .button.is-outline,
+.dark .social-icons .button.is-outline {
+	border-color: #aeaeae;
+}
+
+.nav-dark .is-outline,
+.dark .nav>li>a,
+.dark .nav>li.html,
+.dark .nav-vertical li li.menu-item-has-children>a,
+.dark .nav-vertical>li>ul li a,
+.nav-dropdown.dark>li>a,
+.nav-dropdown.dark .nav-column>li>a,
+.nav-dark .nav>li>a,
+.nav-dark .nav>li>button {
+	color: #aeaeae;
+}
+
+.kool {
+	padding: 0px !important;
+	margin: 0px !important;
+}
+
+.wpcf7-form-control {
+	color: #fff;
+	background-color: #446084;
+	background-color: var(--primary-color);
+	border-color: rgba(0, 0, 0, 0.05);
+	width: 100%;
+	margin-top: 15px;
+}
+
+.alert {
+	background-color: #ED1C24 !important;
+}
+
+.row-collapse>.flickity-viewport>.flickity-slider>.col,
+.row-collapse>.col {
+	padding: 10px 10px !important;
+}
+
+.scroll-snack {
+	background-color: #fff;
+	border: 4px solid #ec1e27;
+	padding: 10px 15px;
+	color: #ec1e27;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 18px;
+	transition-duration: 0.25s;
+	text-align: center;
+	display: block;
+}
+
+.scroll-snack:hover {
+	background-color: #ec1e27;
+	color: #fff;
+	transition-duration: 0.25s;
+	text-align: center;
+	display: block;
+}
+
+/* button code */
+.mybutton {
+	border-radius: 50px;
+	background-color: #f4511e;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 18px;
+	padding: 7px;
+	width: 100%;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 0px;
+	box-shadow: 2px 0px 3px #9a9a9a;
+}
+
+.mybutton:hover {
+	box-shadow: 2px 2px 3px #9a9a9a;
+}
+
+.mybutton span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+	color: #fff;
+}
+
+.mybutton span:after {
+	/* content: '2193'; */
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.2s;
+	color: #fff;
+	font-weight: bold;
+}
+
+.mybutton:hover span {
+	padding-right: 25px;
+	color: #fff;
+	font-weight: bold;
+}
+
+.mybutton:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
+/* Home banner button */
+.banner_controll {}
+
+.bannerbutton {
+	border-radius: 4px;
+	background-color: #f4511e;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 18px;
+	padding: 3px;
+	width: 200px;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+
+.bannerbutton span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.bannerbutton span:after {
+	/* content: '2192'; */
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	/* right: -20px; transition: 0.5s; */
+}
+
+.bannerbutton:hover span {
+	/* padding-right: 25px; */
+}
+
+.bannerbutton:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
+.header:not(.transparent) .top-bar-nav>li>a {
+	color: #ffffff;
+	font-size: 18px;
+}
+
+.border_radious .img-inner.dark {
+	border-radius: 100% !important;
+}
+
+/* Custom CSS Tablet */
+@media (max-width: 849px) {
+
+	.row-collapse>.flickity-viewport>.flickity-slider>.col,
+	.row-collapse>.col {
+		padding: 10px 10px !important;
+	}
+}
+
+/* Custom CSS Mobile */
+@media (max-width: 549px) {
+
+	.row-collapse>.flickity-viewport>.flickity-slider>.col,
+	.row-collapse>.col {
+		padding: 0px 0px !important;
+	}
+}
+
+.label-new.menu-item>a:after {
+	content: "New";
+}
+
+.label-hot.menu-item>a:after {
+	content: "Hot";
+}
+
+.label-sale.menu-item>a:after {
+	content: "Sale";
+}
+
+.label-popular.menu-item>a:after {
+	content: "Popular";
+}
+.training a {
+    color: #116dff !important;
+    text-decoration: none;
+}
